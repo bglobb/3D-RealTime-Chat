@@ -8,7 +8,7 @@ var frame = 1;
 window.onload = function() {
   gl_setup();
   setup_text_canvas();
-  this.name = prompt("What is your SL name?")||user_id;
+  this.name = prompt("Name")||user_id;
   write_data(name, name_id);
   alert("For some reason, some users are still thought to be online when they go offline.");
   write_data("1", "online"+user_id);
